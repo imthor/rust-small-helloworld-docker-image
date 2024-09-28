@@ -1,7 +1,7 @@
 # rust-small-helloworld-docker-image
 
 > [!IMPORTANT]  
-> Please do note that the current Dockerfile uses `rust-.*-apline` version. So this usese `musl libc` in place of `glibc` which might have issues dependeing on your usage of `libc`, you can refer https://hub.docker.com/_/rust and use a version that works for your usecase. 
+> Please do note that the current Dockerfile uses `rust-.*-apline` version. So this uses `musl libc` in place of `glibc` which might have issues. Depending on your usage of `libc`, you can refer https://hub.docker.com/_/rust and use a version that works for your usecase. 
 
 ```
 ♪ docker build -t test_rust_slim .
